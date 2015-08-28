@@ -27,8 +27,8 @@ public class MainActivity extends Activity
       {
         // TODO Auto-generated method stub
         
-        /* 建构Intent对象，指定开启对象为mService222服务 */
-        Intent i = new Intent( MainActivity.this, mService222.class );
+        /* 建构Intent对象，指定开启对象为mService1服务 */
+        Intent i = new Intent( MainActivity.this, mService1.class );
         
         /* 设定新TASK的方式 */
         i.setFlags( Intent.FLAG_ACTIVITY_NEW_TASK );
@@ -48,8 +48,8 @@ public class MainActivity extends Activity
       {
         // TODO Auto-generated method stub
         
-        /* 构造Intent对象，指定欲关闭的对象为mService222服务 */
-        Intent i = new Intent( MainActivity.this, mService222.class );
+        /* 构造Intent对象，指定欲关闭的对象为mService1服务 */
+        Intent i = new Intent( MainActivity.this, mService1.class );
         
         /* 以stopService方法关闭Intent */
         stopService(i);
